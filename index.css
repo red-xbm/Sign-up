@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: cadetblue;
+    margin: auto;
+    font-family: 'Ysabeau', sans-serif;
+}
+.the-one {
+    width: 100%;
+    margin: 90px 0 0;
+}
+.the-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.the-two p:first-child{
+    font-size: 37px;
+    color: white;
+    padding: 30px 130px;
+}
+.the-two div {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.the-two span {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.the-two .submit {
+    width: 330px;
+    border-radius: 30px;
+    background-color: #f6f6f6;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(4, 0, 255);
+}
+.the-two .submit a {
+    text-decoration: none;
+    color: rgb(4, 0, 255);
+}
+.the-two span input {
+    border: none;
+    color: rgb(0, 0, 0);
+    background: none;
+    width: 300px;
+    font-size: 14px;
+    outline: none;
+}
+.the-two span:nth-child(7) {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    margin-bottom: 10px;
+}
+.the-two span a img {
+    width: 40px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+    margin-right: 15px;
+}
+.the-two span a img:nth-child(2) {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.the-two p:last-child {
+    text-align: center;
+    color: white;
+}
+.the-two p:last-child a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px wheat solid;
+}
+.dev {
+    color: white;
+    text-align: center;
+    font: 13px;
+    padding: 50px 0 10px;
+}
+.dev a {
+    text-decoration: none;
+    border-bottom: white 1px solid;
+    color: #a0bdd3;
+}
+@media screen and (max-width: 768px) 
+    {
+        .the-two div {
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .the-two span {
+            padding: 10px 15px;
+            margin: 0 0 10px;
+
+        }
+        .the-two .submit {
+            width: 330px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .the-two span a img {
+            width: 40px;
+            padding: 5px;
+            margin: 0 10px;
+        }
+}
